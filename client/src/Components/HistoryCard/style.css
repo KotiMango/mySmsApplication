@@ -1,0 +1,41 @@
+.history_card{
+    background-color: white;
+    border-radius:25px; 
+    margin-right: 5vw;
+    height: 90vh;
+    width: 40vw;
+    }   
+
+
+.card_body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3vw;
+}
+.message_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
+
+.message_meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+.message_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.history_card_scrollbox{
+    overflow-y: scroll;
+    height: 80vh;
+}

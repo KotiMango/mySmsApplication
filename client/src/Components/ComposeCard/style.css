@@ -1,0 +1,52 @@
+.compose_card{
+    background-color: white;
+    border-radius:25px; 
+    margin-left: 5vw;
+    height: 90vh;
+    width: 40vw;
+}
+
+.card_body{
+    display: flex;
+    flex-direction: column;
+}
+.compose_buttons{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-between;
+}
+.submit_button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 14px;
+}
+.clear{
+    padding: 10px 30px;
+
+}
+label{
+    margin-bottom: 1vh;
+}
+
+.phone_inputbox{
+    height:16vh;
+    border-radius: 12px;
+}
+
+.message_inputbox{
+    height:32vh;
+    border-radius: 12px;
+}
+
+.error_message{
+    color: red;
+    font-size: 12px;
+    margin-top: 1vh;
+}
